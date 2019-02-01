@@ -2,13 +2,13 @@
 
 ## Install
 ```
-npm install lionsoul-ip2region --save 
+npm install abc-ip2region --save 
 ```
 
 ## Example
 
 ```
-const searcher = require('lionsoul-ip2region').create();
+const searcher = require('abc-ip2region').create();
 searcher.btreeSearchSync('xxx.xxx.xxx.xxx')
 // => { city: 2163, region: '中国|0|广东省|深圳市|联通' }
 ```
